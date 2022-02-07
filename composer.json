@@ -1,0 +1,19 @@
+{
+  "name": "ee-objects/item",
+  "description": "Base object to create objects from ExpressionEngine data",
+  "require": {
+    "php": ">=7.1",
+    "ee-objects/exceptions": "^0.1"
+  },
+  "prefer-stable": true,
+  "authors": [{
+    "name": "Eric Lamb",
+    "email": "eric@mithra62.com"
+  }],
+  "autoload": {
+    "psr-4": {
+      "EeObjects\\": "src"
+    }
+  },
+  "license": "MIT"
+}
